@@ -1,0 +1,32 @@
+.show {display: block;}
+.hide {display: none;}
+
+.active {
+	font-weight: 700;
+	font-size: 25px;
+	color: #000 !important;
+}
+
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+@keyframes fade { from {opacity: 0.1;} to {opacity: 1;}}
+
+.status {
+	margin-top: 20px;
+    text-align: center;
+}
+
+
+
+.na_top {
+	position: fixed;
+	cursor: pointer;
+	margin-right: 70px;
+	bottom: 0px;
+	right: 0px;
+	width: 50px;
+	height: 50px;
+	background: orange;
+}
