@@ -17,7 +17,7 @@ const modalTimerId = setTimeout(() => openModal('.modal', modalTimerId), 50000);
 
 tabs('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active');
 modal('[data-modal]', '.modal', modalTimerId);
-timer('.timer', '2021-12-31');
+timer('.timer', '2022-03-31');
 cards();
 calculator();
 forms('form', modalTimerId);
